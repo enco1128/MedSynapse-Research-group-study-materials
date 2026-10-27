@@ -1,7 +1,7 @@
 import { defineConfig } from 'vitepress'
 import { withSidebar } from 'vitepress-sidebar'
 
-const siteTitle = 'AUFE课题组科研入门'
+const siteTitle = '课题组科研入门'
 const repo = 'https://github.com/enco1128/AUFE-Research-group-study-materials'
 const site = 'https://enco1128.github.io/AUFE-Research-group-study-materials/'
 
@@ -9,7 +9,7 @@ const vitePressOptions = {
   lang: 'zh-CN',
   title: siteTitle,
   description:
-    'AUFE课题组科研入门：深度学习 / 计算机视觉 / 医学影像 AI 全流程指南（网页 · Overleaf · 仓库三端对齐）',
+    '课题组科研入门：深度学习 / 计算机视觉 / 医学影像 AI 全流程指南（网页 · Overleaf · 仓库三端对齐）',
   lastUpdated: true,
   cleanUrls: true,
   ignoreDeadLinks: [
