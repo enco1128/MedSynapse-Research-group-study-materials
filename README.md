@@ -13,10 +13,10 @@
 </p>
 
 <p align="center">
-  <a href="https://enco1128.github.io/AUFE-Research-group-study-materials/"><b>在线学习站点（正式）</b></a> ·
+  <a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/"><b>在线学习站点（正式）</b></a> ·
   <a href="https://enco1128.github.io/Research-group-study-materials/"><b>旧地址自动跳转</b></a> ·
-  <a href="https://github.com/enco1128/AUFE-Research-group-study-materials"><b>GitHub 仓库</b></a> ·
-  <a href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/latex/main.tex"><b>Overleaf 手册源码</b></a>
+  <a href="https://github.com/enco1128/MedSynapseE-Research-group-study-materials"><b>GitHub 仓库</b></a> ·
+  <a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/latex/main.tex"><b>Overleaf 手册源码</b></a>
 </p>
 
 > **正式站点：** https://enco1128.github.io/AUFE-Research-group-study-materials/  
@@ -271,31 +271,31 @@ AUFE-Research-group-study-materials/
   <tbody>
     <tr>
       <td align="center">文献 list 模板</td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/02-literature/literature_list.csv">literature_list.csv</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/02-literature/literature_list.csv">literature_list.csv</a></td>
     </tr>
     <tr>
       <td align="center">汇报要点 PDF</td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/02-literature/literature_and_report_tips.pdf">literature_and_report_tips.pdf</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/02-literature/literature_and_report_tips.pdf">literature_and_report_tips.pdf</a></td>
     </tr>
     <tr>
       <td align="center">周报模板 / 范例</td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/05-writing/weekly_report.md">weekly_report.md</a> · <a href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/05-writing/weekly_report_example.md">example</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/05-writing/weekly_report.md">weekly_report.md</a> · <a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/05-writing/weekly_report_example.md">example</a></td>
     </tr>
     <tr>
       <td align="center">培训手册原文（16 篇）</td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/resources/handbook">resources/handbook</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/resources/handbook">resources/handbook</a></td>
     </tr>
     <tr>
       <td align="center">Meeting / 汇报 / Abstract 模板</td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/01-mindset/meeting_template.md">meeting_template</a> · <a href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/02-literature/report_questions.md">report_questions</a> · <a href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/05-writing/abstract_five_sentences.md">abstract_five_sentences</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/01-mindset/meeting_template.md">meeting_template</a> · <a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/02-literature/report_questions.md">report_questions</a> · <a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/05-writing/abstract_five_sentences.md">abstract_five_sentences</a></td>
     </tr>
     <tr>
       <td align="center">数据集整理表</td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/06-domain/dataset_sheet.csv">dataset_sheet.csv</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/06-domain/dataset_sheet.csv">dataset_sheet.csv</a></td>
     </tr>
     <tr>
       <td align="center">投稿期刊示意</td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/06-domain/journal_list.jpg">journal_list.jpg</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/06-domain/journal_list.jpg">journal_list.jpg</a></td>
     </tr>
     <tr>
       <td align="center">会议截止</td>
@@ -308,7 +308,7 @@ AUFE-Research-group-study-materials/
   </tbody>
 </table>
 
-更多外链见：[附录 · 资源索引](https://enco1128.github.io/AUFE-Research-group-study-materials/8-附录/1-资源索引)
+更多外链见：[附录 · 资源索引](https://enco1128.github.io/MedSynapse-Research-group-study-materials/8-附录/1-资源索引)
 
 ---
 
@@ -324,7 +324,7 @@ AUFE-Research-group-study-materials/
 
 ## 贡献与规范
 
-欢迎通过 [Issues](https://github.com/enco1128/AUFE-Research-group-study-materials/issues) / [Pull Requests](https://github.com/enco1128/AUFE-Research-group-study-materials/pulls) 修正失效链接、补充经验或完善某一阶段资源。
+欢迎通过 [Issues](https://github.com/enco1128/MedSynapse-Research-group-study-materials/issues) / [Pull Requests](https://github.com/enco1128/MedSynapse-Research-group-study-materials/pulls) 修正失效链接、补充经验或完善某一阶段资源。
 
 请勿提交：未脱敏的项目细节、隐私数据、未授权数据集、账号与密钥。
 
@@ -332,11 +332,11 @@ AUFE-Research-group-study-materials/
 
 ## 许可
 
-本仓库内容以 [CC BY 4.0](https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/LICENSE) 授权：允许分享与改编，需署名。
+本仓库内容以 [CC BY 4.0](https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/LICENSE) 授权：允许分享与改编，需署名。
 
 ---
 
 <p align="center">
   <i>Start with the site · Stay with the roadmap · Ship with the handbook.</i><br/>
-  <a href="https://enco1128.github.io/AUFE-Research-group-study-materials/">enco1128.github.io/AUFE-Research-group-study-materials</a>
+  <a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/">enco1128.github.io/MedSynapse-Research-group-study-materials</a>
 </p>
