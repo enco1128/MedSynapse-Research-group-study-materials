@@ -1,6 +1,6 @@
 # 高效 Meeting
 
-> **AUFE课题组科研入门** · 对应论文章节：**Introduction**  
+> **课题组科研入门** · 对应论文章节：**Introduction**  
 > 来源：手册第六篇 · 模板：[`meeting_template.md`](https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/01-mindset/meeting_template.md)
 
 ## 本页目标
