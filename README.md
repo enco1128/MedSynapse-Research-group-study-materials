@@ -1,4 +1,4 @@
-# AUFE课题组科研入门
+# 课题组科研入门
 
 <p align="center">
   <img alt="license" src="https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg" />
