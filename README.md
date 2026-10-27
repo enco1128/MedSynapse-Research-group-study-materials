@@ -19,8 +19,7 @@
   <a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/latex/main.tex"><b>Overleaf 手册源码</b></a>
 </p>
 
-> **正式站点：** https://enco1128.github.io/AUFE-Research-group-study-materials/  
-> 旧路径 `.../Research-group-study-materials/` 仅作跳转兼容，请收藏正式地址。
+> **正式站点：** https://enco1128.github.io/MedSynapse-Research-group-study-materials/  
 
 ---
 
