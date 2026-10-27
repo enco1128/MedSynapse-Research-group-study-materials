@@ -76,14 +76,14 @@
 ### 方式 A · 直接打开网页（推荐）
 
 1. 打开站点首页：  
-   **https://enco1128.github.io/AUFE-Research-group-study-materials/**
+   **https://enco1128.github.io/MedSynapse-Research-group-study-materials/**
 2. 从首页卡片进入：导论 → 技能链路 → 课题范式 → 八周路线
 3. 需要模板时，页面内「仓库资源」链接会跳到对应 `resources/` 目录
 
 ### 方式 B · 本地预览网页
 
 ```bash
-git clone https://github.com/enco1128/AUFE-Research-group-study-materials.git
+git clone https://github.com/enco1128/MedSynapse-Research-group-study-materials.git
 cd AUFE-Research-group-study-materials
 npm install
 npm run docs:dev
@@ -94,8 +94,8 @@ npm run docs:dev
 ### 方式 C · Overleaf 编辑论文式手册
 
 1. 打开 [Overleaf](https://www.overleaf.com/) → **New Project** → **Import from GitHub**
-2. 选择仓库 [`enco1128/AUFE-Research-group-study-materials`](https://github.com/enco1128/AUFE-Research-group-study-materials)
-3. 主文件设为 [`latex/main.tex`](https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/latex/main.tex)
+2. 选择仓库 [`enco1128/AUFE-Research-group-study-materials`](https://github.com/enco1128/MedSynapse-Research-group-study-materials)
+3. 主文件设为 [`latex/main.tex`](https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/latex/main.tex)
 4. 编译器选择 **XeLaTeX** → 编译得到 PDF
 
 手册体例：Abstract → Introduction → Related Work → Method → Experiments → Writing → Case Study → Conclusion → Appendix。
