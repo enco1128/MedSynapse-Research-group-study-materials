@@ -2,7 +2,7 @@
 layout: home
 
 hero:
-  name: AUFE课题组科研入门
+  name: MedSynapse课题组科研入门
   text: 从文献到投稿的全流程指南
   tagline: 深度学习 · 计算机视觉 · 医学影像 AI · 16 篇手册已拆入站点 · 网页 / Overleaf / 仓库三端对齐
   actions:
@@ -14,7 +14,7 @@ hero:
       link: /7-路线图/1-八周学习路径
     - theme: alt
       text: GitHub 仓库
-      link: https://github.com/enco1128/AUFE-Research-group-study-materials
+      link: https://github.com/enco1128/MedSynapse-Research-group-study-materials
 
 features:
   - title: 导论与心态
@@ -37,23 +37,23 @@ features:
     link: /6-课题范式/1-问题拆解框架
 ---
 
-<div class="aufe-home-extra">
+<div class="ms-home-extra">
 
-<section class="aufe-panel">
+<section class="ms-panel">
   <h2>三步开始</h2>
   <p>不必一次读完整站。按下面顺序推进，最稳、也最不容易半途而废。</p>
-  <div class="aufe-steps">
-    <div class="aufe-step">
+  <div class="ms-steps">
+    <div class="ms-step">
       <div class="num">01</div>
       <h3>建立预期</h3>
       <p>先读导论：研究定义、TPIC 主线、「三个一定」、Meeting 与习惯。</p>
     </div>
-    <div class="aufe-step">
+    <div class="ms-step">
       <div class="num">02</div>
       <h3>练核心技能</h3>
       <p>文献（六路径+七步法）→ 代码 → Idea/实验 → 写作（含画图与 Rebuttal）。</p>
     </div>
-    <div class="aufe-step">
+    <div class="ms-step">
       <div class="num">03</div>
       <h3>对齐课题</h3>
       <p>用问题拆解框架写清你的课题，再按八周路线做出第一份正式汇报。</p>
@@ -61,25 +61,25 @@ features:
   </div>
 </section>
 
-<section class="aufe-panel">
+<section class="ms-panel">
   <h2>三端入口</h2>
   <p>同一套编号：网页讲清楚、手册可打印协作、资源目录放模板与范例。</p>
-  <div class="aufe-links">
-    <a class="aufe-chip" href="https://enco1128.github.io/AUFE-Research-group-study-materials/">在线站点（当前页）</a>
-    <a class="aufe-chip" href="https://github.com/enco1128/AUFE-Research-group-study-materials">GitHub 仓库</a>
-    <a class="aufe-chip" href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/latex/main.tex">Overleaf / LaTeX 手册</a>
-    <a class="aufe-chip" href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/resources">resources 资源</a>
-    <a class="aufe-chip" href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/resources/handbook">培训手册原文</a>
-    <a class="aufe-chip" href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/templates/learning_plan.md">学习计划模板</a>
-    <a class="aufe-chip" href="https://enco1128.github.io/AUFE-Research-group-study-materials/8-附录/1-资源索引">外链附录</a>
+  <div class="ms-links">
+    <a class="ms-chip" href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/">在线站点（当前页）</a>
+    <a class="ms-chip" href="https://github.com/enco1128/MedSynapse-Research-group-study-materials">GitHub 仓库</a>
+    <a class="ms-chip" href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/latex/main.tex">Overleaf / LaTeX 手册</a>
+    <a class="ms-chip" href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/resources">resources 资源</a>
+    <a class="ms-chip" href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/resources/handbook">培训手册原文</a>
+    <a class="ms-chip" href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/templates/learning_plan.md">学习计划模板</a>
+    <a class="ms-chip" href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/8-附录/1-资源索引">外链附录</a>
   </div>
 </section>
 
-<section class="aufe-panel">
+<section class="ms-panel">
   <h2>使用建议</h2>
   <ul>
     <li>站点字体：英文 Times New Roman，中文华文中宋（需本机安装；否则回退宋体类）。</li>
-    <li>若打开了旧地址 <code>/Research-group-study-materials/</code>，会自动跳转到本站。</li>
+    <li>书签请统一使用 <code>enco1128.github.io/MedSynapse-Research-group-study-materials/</code>；改名前的旧 Pages 地址已失效，不会自动跳转。</li>
     <li>Overleaf：导入本仓库 → 主文件 <code>latex/main.tex</code> → 编译器 XeLaTeX。</li>
     <li>发现失效链接或想补充经验：欢迎提交 Issue / Pull Request。</li>
   </ul>

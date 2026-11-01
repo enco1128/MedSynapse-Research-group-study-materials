@@ -1,22 +1,24 @@
-# ICML 智慧医疗文献整理范例（2024–2025）
+# ICML 智慧医疗文献整理范例（2024）
 
-整理自组内 Excel，仅作「文献 list」字段示范；请以原文为准。
+> 由组内 Excel 原表导出，字段与 `literature_list.csv` 对齐：题目 / 作者 / 机构 / 时间 / 引用 / 链接 / 代码 / 数据集。
+> 仅作「文献 list 应该长什么样」的示范；结论与方法描述请以论文原文为准。
 
-| # | Topic | Title | Venue/Time | Link |
-|---|-------|-------|------------|------|
-| 序号 | 检索topic | 论文题目 | 发表时间 | 论文地址 |
-| 1 | Health | Unlocking the Power of Spatial and Temporal Information in Medical Multimodal Pr | 2024 | https://arxiv.org/abs/2405.19654 |
-| 2 | Health | Contrastive Learning for Clinical Outcome Prediction with Partial Data Sources 基 | 2024 | https://pmc.ncbi.nlm.nih.gov/articles/PMC11326519/ |
-| 3 | Health | Contextualized Policy Recovery: Modeling and Interpreting Medical Decisions with | 2024 | https://arxiv.org/abs/2310.07918 |
-| 4 | Health | Multi-Agent Reinforcement Learning Meets Leaf Sequencing in Radiotherapy 多智能体强化学 | 2024 | https://arxiv.org/abs/2406.01853 |
-| 5 | Health | Multimodal Prototyping for cancer survival prediction 用于癌症生存预测的多模态原型建模 | 2024 | https://arxiv.org/pdf/2407.00224? |
-| 6 | Health | Adaptive Sampling of k-Space in Magnetic Resonance for Rapid Pathology Predictio | 2024 | https://arxiv.org/abs/2406.04318 |
-| 7 | Health | Unsupervised Domain Adaptation for Anatomical Structure Detection in Ultrasound  | 2024 | https://openreview.net/pdf?id=meItvvCO7X |
-| 8 | Health | From Biased Selective Labels to Pseudo-Labels: An Expectation-Maximization Frame | 2024 | https://arxiv.org/abs/2406.18865 |
-| 9 | Health | Position: Reinforcement Learning in Dynamic Treatment Regimes Needs Critical Ree | 2024 | https://arxiv.org/abs/2405.18556 |
-| 10 | Health | MH‑pFLID: Model Heterogeneous personalized Federated Learning via Injection and  | 2024 | https://arxiv.org/pdf/2405.06822? |
-| 11 | Health | WISER: Weak Supervision and Supervised Representation Learning to Improve Drug R | 2024 | https://arxiv.org/abs/2405.04078 |
-| 12 | Health | ProtoGate: Prototype-based Neural Networks with Global-to-local Feature Selectio | 2024 | https://arxiv.org/pdf/2306.12330 |
-| 13 | Health | Exploiting Negative Samples: A Catalyst for Cohort Discovery in Healthcare Analy | 2024 | https://openreview.net/pdf?id=k1J2GbamLi |
-| 14 | Health | Zero-Shot ECG Classification with Multimodal Learning and Test-time Clinical Kno | 2024 | https://arxiv.org/pdf/2403.06659 |
-| 15 | Health | Reservoir Computing for Short High-Dimensional Time Series: an Application to SA | 2024 | https://hal.science/hal-04693930v1/file/ferte24a.pdf |
+| # | Topic | 论文题目 | 作者 | 机构 | 年份 | 引用 | 论文链接 | 代码 | 数据集 |
+|---|---|---|---|---|---|---|---|---|---|
+| 1 | Health | Unlocking the Power of Spatial and Temporal Information in Medical Multimodal Pre-training 释放医学多模态预训练中空间与时间信息的潜力 | Jinxia Yang, Bing Su, Wayne Xin Zhao, Ji-Rong Wen | 中国人民大学 | 2024 | 14 | [链接](https://arxiv.org/abs/2405.19654) | [代码](https://github.com/SVT-Yang/MedST?utm_source=catalyzex.com) | MIMIC-CXR；MS-CXR-T benchmark；RSNA；COVIDx； |
+| 2 | Health | Contrastive Learning for Clinical Outcome Prediction with Partial Data Sources 基于对比学习的部分数据源临床结局预测 | Xia · Jonathan Wilson · Benjamin Goldstein · Ricardo Henao | Duke University | 2024 | 4 | [链接](https://pmc.ncbi.nlm.nih.gov/articles/PMC11326519/) | [代码](https://github.com/mx41-m/Contrastive-Learning) | MIMIC-III； 私有数据 |
+| 3 | Health | Contextualized Policy Recovery: Modeling and Interpreting Medical Decisions with Adaptive Imitation Learning 情境化策略恢复：采用自适应模仿学习建模与解释医疗决策 | Jannik Deuschel；Caleb N. Ellington；Yingtao Luo；Benjamin J. Lengerich；Pascal Friederich；Eric P. Xing | Karlsruhe Institute of Technology | 2024 | 9 | [链接](https://arxiv.org/abs/2310.07918) | — | MIMIC；ADNI |
+| 4 | Health | Multi-Agent Reinforcement Learning Meets Leaf Sequencing in Radiotherapy 多智能体强化学习在放射治疗叶片排序中的应用 | Riqiang Gao · Florin-Cristian Ghesu · Simon Arberet · Shahab Basiri · Esa Kuusela · Martin Kraus · Dorin Comaniciu · Ali Kamen | Siemens Healthineers | 2024 | 4 | [链接](https://arxiv.org/abs/2406.01853) | — | 私有数据 |
+| 5 | Health | Multimodal Prototyping for cancer survival prediction 用于癌症生存预测的多模态原型建模 | Andrew H. Song；Richard J. Chen；Guillaume Jaume；Anurag J. Vaidya；Alexander S. Baras；Faisal Mahmood | Mass General Brigham | 2024 | 51 | [链接](https://arxiv.org/pdf/2407.00224?) | [代码](https://github.com/mahmoodlab/MMP?utm_source=catalyzex.com) | The Cancer Genome Atlas (TCGA) |
+| 6 | Health | Adaptive Sampling of k-Space in Magnetic Resonance for Rapid Pathology Prediction 磁共振中 k-空间的自适应采样用于快速病理预测 | Chen‑Yu Yen；Raghav Singhal；Umang Sharma；Rajesh Ranganath；Sumit Chopra；Lerrel Pinto | New York University | 2024 | 7 | [链接](https://arxiv.org/abs/2406.04318) | [代码](https://github.com/robinyen/asmr) | fastMRI（包括脑、膝、腹部扫描） |
+| 7 | Health | Unsupervised Domain Adaptation for Anatomical Structure Detection in Ultrasound Images 用于超声图像中解剖结构检测的无监督域适应 | Bin Pu、Xingguo Lv、Jiewen Yang、Guannan He、Xingbo Dong、Yiqun Lin、Li Shengli、Tan Ying、Liu Fei、Ming Chen、Zhe Jin、Kenli Li、Xiaomeng Li | The Hong Kong University of Science and Technology | 2024 | 15 | [链接](https://openreview.net/pdf?id=meItvvCO7X) | [代码](https://github.com/jhb86253817/UDA_Med_Landmark?utm_source=catalyzex.com) | FUSH²（Fetal UltraSound benchmark） |
+| 8 | Health | From Biased Selective Labels to Pseudo-Labels: An Expectation-Maximization Framework for Learning from Biased Decisions 从有偏选择性标签到伪标签：一种用于从偏置决策中学习的期望-最大化框架 | Trenton Chang、Jenna Wiens | University of Michigan | 2024 | 1 | [链接](https://arxiv.org/abs/2406.18865) | [代码](https://github.com/mld3/dcem) | MIMIC‑III |
+| 9 | Health | Position: Reinforcement Learning in Dynamic Treatment Regimes Needs Critical Reexamination 立场性论述：动态治疗方案中强化学习需要重新审视 | Zhiyao Luo；Yangchen Pan；Peter Watkinson；Tingting Zhu | University of Oxford | 2024 | 10 | [链接](https://arxiv.org/abs/2405.18556) | [代码](https://github.com/GilesLuo/ReassessDTR) | MIMIC‑III |
+| 10 | Health | MH‑pFLID: Model Heterogeneous personalized Federated Learning via Injection and Distillation for Medical Data Analysis MH-pFLID：面向医疗数据分析的异构模型个性化联邦学习 via 注入与蒸馏 | Luyuan Xie、Manqing Lin、Tianyu Luan、Cong Li、Yuejian Fang、Qingni Shen、Zhonghai Wu | 北京大学 | 2024 | 23 | [链接](https://arxiv.org/pdf/2405.06822?) | — | BreaKHis； OCT2017； ColonDB、ETIS、ClinicDB、Kvasir‑SEG； |
+| 11 | Health | WISER: Weak Supervision and Supervised Representation Learning to Improve Drug Response Prediction in Cancer WISER：利用弱监督与有监督表征学习提升癌症药物反应预测 | Kumar Shubham；Aishwarya Jayagopal；Syed Mohammed Danish；Prathosh A.P.；Vaibhav Rajan | Indian Institute of Science | 2024 | 5 | [链接](https://arxiv.org/abs/2405.04078) | [代码](https://github.com/kyrs/WISER) | DepMap（DepMap portal）； TCGA（The Cancer Genome Atlas； |
+| 12 | Health | ProtoGate: Prototype-based Neural Networks with Global-to-local Feature Selection for Tabular Biomedical Data ProtoGate：用于表格型生物医学数据的原型-基础神经网络及全局-到-局部特征选择 | Xiangjian Jiang、Andrei Margeloiu、Nikola Simidjievski、Mateja Jamnik | University of Cambridge | 2024 | 17 | [链接](https://arxiv.org/pdf/2306.12330) | [代码](https://github.com/SilenceX12138/ProtoGate) | colon lung meta-dr meta-pam prostate tcga-2y toxicity |
+| 13 | Health | Exploiting Negative Samples: A Catalyst for Cohort Discovery in Healthcare Analytics 利用负样本：推动医疗分析中队列发现的催化剂 | Kaiping Zheng；Horng‑Ruey Chua；Melanie Herschel；H. V. Jagadish；Beng Chin Ooi；James Wei Luen Yip | National University of Singapore | 2024 | 6 | [链接](https://openreview.net/pdf?id=k1J2GbamLi) | — | 私有数据 |
+| 14 | Health | Zero-Shot ECG Classification with Multimodal Learning and Test-time Clinical Knowledge Enhancement 零样本 ECG 分类：基于多模态学习与测试时临床知识强化 | Che Liu；Zhongwei Wan；Cheng Ouyang；Anand Shah；Wenjia Bai；Rossella Arcucci | Imperial College London | 2024 | 59 | [链接](https://arxiv.org/pdf/2403.06659) | [代码](https://github.com/cheliu-computation/MERL-ICML2024?tab=readme-ov-file) | MIMIC-IV-ECG ；PTB-XL；CPSC2018；CSN(Chapman-Shaoxing-Ningbo) |
+| 15 | Health | Reservoir Computing for Short High-Dimensional Time Series: an Application to SARS-CoV-2 Hospitalization Forecast 面向短期高维时间序列的储备计算：以 SARS-CoV-2 住院人数预测为例 | Thomas Ferte、Dan Dutartre、Boris P Hejblum、Romain Griffier, Vianney Jouhet, Rodolphe Thiébaut, Pierrick Legrand & Xavier Hinaut | Université de Bordeaux | 2024 | 8 | [链接](https://hal.science/hal-04693930v1/file/ferte24a.pdf) | — | 法国公共数据与电子健康记录（EHR）数据 |
+
+共 15 条。原表另有「论文工作概要」「备注」两列，篇幅原因未在此展开，见组内 Excel。

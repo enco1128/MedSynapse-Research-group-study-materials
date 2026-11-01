@@ -1,7 +1,7 @@
 # Rebuttal 指南
 
-> **AUFE课题组科研入门** · 对应论文章节：**Writing**  
-> 来源：手册第十六篇 · 句式：[`rebuttal_templates.md`](https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/05-writing/rebuttal_templates.md)  
+> **MedSynapse课题组科研入门** · 对应论文章节：**Writing**  
+> 来源：手册第十六篇 · 句式：[`rebuttal_templates.md`](https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/05-writing/rebuttal_templates.md)  
 > 外部参考：[MLNLP Paper-Rebuttal-Tips](https://github.com/MLNLP-World/Paper-Rebuttal-Tips)
 
 ## 本页目标
@@ -34,7 +34,7 @@
 
 ## 句式与模板
 
-见 [`rebuttal_templates.md`](https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/05-writing/rebuttal_templates.md)：感谢与定位、澄清误解、补充实验、承认局限、请求再评等。
+见 [`rebuttal_templates.md`](https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/05-writing/rebuttal_templates.md)：感谢与定位、澄清误解、补充实验、承认局限、请求再评等。
 
 ## Checklist
 

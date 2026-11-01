@@ -4,7 +4,7 @@
   <img alt="license" src="https://img.shields.io/badge/license-CC%20BY%204.0-blue.svg" />
   <img alt="docs" src="https://img.shields.io/badge/docs-VitePress-42b883.svg" />
   <img alt="latex" src="https://img.shields.io/badge/LaTeX-Overleaf%20ready-008080.svg" />
-  <img alt="pages" src="https://img.shields.io/badge/GitHub%20Pages-live-success.svg" />
+  <a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/actions/workflows/pages.yml"><img alt="pages" src="https://github.com/enco1128/MedSynapse-Research-group-study-materials/actions/workflows/pages.yml/badge.svg" /></a>
 </p>
 
 <p align="center">
@@ -13,13 +13,13 @@
 </p>
 
 <p align="center">
-  <a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/"><b>在线学习站点（正式）</b></a> ·
-  <a href="https://enco1128.github.io/Research-group-study-materials/"><b>旧地址自动跳转</b></a> ·
-  <a href="https://github.com/enco1128/MedSynapseE-Research-group-study-materials"><b>GitHub 仓库</b></a> ·
+  <a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/"><b>在线学习站点</b></a> ·
+  <a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials"><b>GitHub 仓库</b></a> ·
   <a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/latex/main.tex"><b>Overleaf 手册源码</b></a>
 </p>
 
 > **正式站点：** https://enco1128.github.io/MedSynapse-Research-group-study-materials/  
+> 仓库改名前的 Pages 地址（`/AUFE-Research-group-study-materials/`、`/Research-group-study-materials/`）已失效，GitHub Pages 不会随仓库改名重定向，请统一收藏上面的正式地址。
 
 ---
 
@@ -30,7 +30,7 @@
 本仓库把组内经验整理成**同一套编号体系**，让新人可以按路线推进，而不是在文件夹里迷路。
 
 <p align="center">
-  <img src="assets/architecture.png" alt="AUFE课题组科研入门三端同构架构图" width="820" />
+  <img src="assets/architecture.png" alt="MedSynapse课题组科研入门三端同构架构图" width="820" />
 </p>
 
 <p align="center"><sub>SYNERGY · KNOWLEDGE · RESEARCH — README 总入口串联网页、论文式手册与资源目录</sub></p>
@@ -47,22 +47,22 @@
     <tr>
       <td align="center"><b>学习网页</b></td>
       <td align="center">日常阅读与导航（VitePress）</td>
-      <td align="center"><a href="https://enco1128.github.io/AUFE-Research-group-study-materials/">GitHub Pages 站点</a></td>
+      <td align="center"><a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/">GitHub Pages 站点</a></td>
     </tr>
     <tr>
       <td align="center"><b>论文式手册</b></td>
       <td align="center">可打印 / Overleaf 协作全文</td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/latex/main.tex"><code>latex/main.tex</code></a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/latex/main.tex"><code>latex/main.tex</code></a></td>
     </tr>
     <tr>
       <td align="center"><b>分阶段资源</b></td>
       <td align="center">模板、范例、清单、附图</td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/resources"><code>resources/</code></a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/resources"><code>resources/</code></a></td>
     </tr>
     <tr>
       <td align="center"><b>个人模板</b></td>
       <td align="center">学习计划等可复制文件</td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/templates"><code>templates/</code></a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/templates"><code>templates/</code></a></td>
     </tr>
   </tbody>
 </table>
@@ -84,7 +84,7 @@
 
 ```bash
 git clone https://github.com/enco1128/MedSynapse-Research-group-study-materials.git
-cd AUFE-Research-group-study-materials
+cd MedSynapse-Research-group-study-materials
 npm install
 npm run docs:dev
 ```
@@ -94,7 +94,7 @@ npm run docs:dev
 ### 方式 C · Overleaf 编辑论文式手册
 
 1. 打开 [Overleaf](https://www.overleaf.com/) → **New Project** → **Import from GitHub**
-2. 选择仓库 [`enco1128/AUFE-Research-group-study-materials`](https://github.com/enco1128/MedSynapse-Research-group-study-materials)
+2. 选择仓库 [`enco1128/MedSynapse-Research-group-study-materials`](https://github.com/enco1128/MedSynapse-Research-group-study-materials)
 3. 主文件设为 [`latex/main.tex`](https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/latex/main.tex)
 4. 编译器选择 **XeLaTeX** → 编译得到 PDF
 
@@ -120,58 +120,58 @@ npm run docs:dev
     <tr>
       <td align="center">01</td>
       <td align="center">Introduction</td>
-      <td align="center"><a href="https://enco1128.github.io/AUFE-Research-group-study-materials/1-导论/1-为何做科研">为何做科研</a> · <a href="https://enco1128.github.io/AUFE-Research-group-study-materials/1-导论/3-研究过程与能力">研究过程</a> · <a href="https://enco1128.github.io/AUFE-Research-group-study-materials/1-导论/2-心态误区与规范">心态</a> · <a href="https://enco1128.github.io/AUFE-Research-group-study-materials/1-导论/4-高效Meeting">Meeting</a></td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/docs/1-导论">docs/1-导论</a></td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/resources/01-mindset">resources/01-mindset</a></td>
+      <td align="center"><a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/1-导论/1-为何做科研">为何做科研</a> · <a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/1-导论/3-研究过程与能力">研究过程</a> · <a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/1-导论/2-心态误区与规范">心态</a> · <a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/1-导论/4-高效Meeting">Meeting</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/docs/1-导论">docs/1-导论</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/resources/01-mindset">resources/01-mindset</a></td>
     </tr>
     <tr>
       <td align="center">02</td>
       <td align="center">Related Work</td>
-      <td align="center"><a href="https://enco1128.github.io/AUFE-Research-group-study-materials/2-文献/1-文献检索与精读">文献检索与精读</a> · <a href="https://enco1128.github.io/AUFE-Research-group-study-materials/2-文献/2-学术汇报">学术汇报</a></td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/docs/2-文献">docs/2-文献</a></td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/resources/02-literature">resources/02-literature</a></td>
+      <td align="center"><a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/2-文献/1-文献检索与精读">文献检索与精读</a> · <a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/2-文献/2-学术汇报">学术汇报</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/docs/2-文献">docs/2-文献</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/resources/02-literature">resources/02-literature</a></td>
     </tr>
     <tr>
       <td align="center">03</td>
       <td align="center">Method</td>
-      <td align="center"><a href="https://enco1128.github.io/AUFE-Research-group-study-materials/3-代码/1-代码与工程基础">代码与工程基础</a></td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/docs/3-代码">docs/3-代码</a></td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/resources/03-coding">resources/03-coding</a></td>
+      <td align="center"><a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/3-代码/1-代码与工程基础">代码与工程基础</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/docs/3-代码">docs/3-代码</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/resources/03-coding">resources/03-coding</a></td>
     </tr>
     <tr>
       <td align="center">04</td>
       <td align="center">Experiments</td>
-      <td align="center"><a href="https://enco1128.github.io/AUFE-Research-group-study-materials/4-实验/1-Idea与实验">Idea 与实验</a></td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/docs/4-实验">docs/4-实验</a></td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/resources/04-experiment">resources/04-experiment</a></td>
+      <td align="center"><a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/4-实验/1-Idea与实验">Idea 与实验</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/docs/4-实验">docs/4-实验</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/resources/04-experiment">resources/04-experiment</a></td>
     </tr>
     <tr>
       <td align="center">05</td>
       <td align="center">Writing</td>
-      <td align="center"><a href="https://enco1128.github.io/AUFE-Research-group-study-materials/5-写作/1-写作工具与投稿">写作工具</a> · <a href="https://enco1128.github.io/AUFE-Research-group-study-materials/5-写作/2-论文结构与章节写法">章节写法</a> · <a href="https://enco1128.github.io/AUFE-Research-group-study-materials/5-写作/3-论文画图指南">画图</a> · <a href="https://enco1128.github.io/AUFE-Research-group-study-materials/5-写作/4-Rebuttal指南">Rebuttal</a></td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/docs/5-写作">docs/5-写作</a></td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/resources/05-writing">resources/05-writing</a> · <a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/resources/handbook">handbook</a></td>
+      <td align="center"><a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/5-写作/1-写作工具与投稿">写作工具</a> · <a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/5-写作/2-论文结构与章节写法">章节写法</a> · <a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/5-写作/3-论文画图指南">画图</a> · <a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/5-写作/4-Rebuttal指南">Rebuttal</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/docs/5-写作">docs/5-写作</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/resources/05-writing">resources/05-writing</a> · <a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/resources/handbook">handbook</a></td>
     </tr>
     <tr>
       <td align="center">06</td>
       <td align="center">Case Study</td>
-      <td align="center"><a href="https://enco1128.github.io/AUFE-Research-group-study-materials/6-课题范式/1-问题拆解框架">问题拆解框架</a></td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/docs/6-课题范式">docs/6-课题范式</a></td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/resources/06-domain">resources/06-domain</a></td>
+      <td align="center"><a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/6-课题范式/1-问题拆解框架">问题拆解框架</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/docs/6-课题范式">docs/6-课题范式</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/resources/06-domain">resources/06-domain</a></td>
     </tr>
     <tr>
       <td align="center">07</td>
       <td align="center">Conclusion</td>
-      <td align="center"><a href="https://enco1128.github.io/AUFE-Research-group-study-materials/7-路线图/1-八周学习路径">八周学习路径</a></td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/docs/7-路线图">docs/7-路线图</a></td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/templates">templates</a></td>
+      <td align="center"><a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/7-路线图/1-八周学习路径">八周学习路径</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/docs/7-路线图">docs/7-路线图</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/templates">templates</a></td>
     </tr>
     <tr>
       <td align="center">A</td>
       <td align="center">Appendix</td>
-      <td align="center"><a href="https://enco1128.github.io/AUFE-Research-group-study-materials/8-附录/1-资源索引">资源索引与外链</a></td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/docs/8-附录">docs/8-附录</a></td>
-      <td align="center"><a href="https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/resources/08-links">resources/08-links</a></td>
+      <td align="center"><a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/8-附录/1-资源索引">资源索引与外链</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/docs/8-附录">docs/8-附录</a></td>
+      <td align="center"><a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/resources/08-links">resources/08-links</a></td>
     </tr>
   </tbody>
 </table>
@@ -180,7 +180,7 @@ npm run docs:dev
 
 ## 八周执行路线
 
-完整说明见：[八周学习路径（在线）](https://enco1128.github.io/AUFE-Research-group-study-materials/7-路线图/1-八周学习路径) · [学习计划模板](https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/templates/learning_plan.md)
+完整说明见：[八周学习路径（在线）](https://enco1128.github.io/MedSynapse-Research-group-study-materials/7-路线图/1-八周学习路径) · [学习计划模板](https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/templates/learning_plan.md)
 
 <table width="100%">
   <thead>
@@ -195,37 +195,37 @@ npm run docs:dev
     <tr>
       <td align="center">Week 1</td>
       <td align="center">环境与框架</td>
-      <td align="center"><a href="https://enco1128.github.io/AUFE-Research-group-study-materials/1-导论/1-为何做科研">导论</a> · <a href="https://enco1128.github.io/AUFE-Research-group-study-materials/3-代码/1-代码与工程基础">代码</a> · <a href="https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html">PyTorch 60-min</a></td>
+      <td align="center"><a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/1-导论/1-为何做科研">导论</a> · <a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/3-代码/1-代码与工程基础">代码</a> · <a href="https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html">PyTorch 60-min</a></td>
       <td align="center">环境可跑 + 笔记</td>
     </tr>
     <tr>
       <td align="center">Week 2–3</td>
       <td align="center">文献方法</td>
-      <td align="center"><a href="https://enco1128.github.io/AUFE-Research-group-study-materials/2-文献/1-文献检索与精读">文献篇</a> · <a href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/02-literature/literature_list.csv">literature_list.csv</a></td>
+      <td align="center"><a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/2-文献/1-文献检索与精读">文献篇</a> · <a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/02-literature/literature_list.csv">literature_list.csv</a></td>
       <td align="center">文献 list ≥ 10 条</td>
     </tr>
     <tr>
       <td align="center">Week 4–5</td>
       <td align="center">模型与代码</td>
-      <td align="center"><a href="https://enco1128.github.io/AUFE-Research-group-study-materials/4-实验/1-Idea与实验">实验篇</a> · <a href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/04-experiment/classic_models.md">精读清单</a> · <a href="https://github.com/mli/paper-reading">mli/paper-reading</a></td>
+      <td align="center"><a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/4-实验/1-Idea与实验">实验篇</a> · <a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/04-experiment/classic_models.md">精读清单</a> · <a href="https://github.com/mli/paper-reading">mli/paper-reading</a></td>
       <td align="center">精读笔记 + 开源对照</td>
     </tr>
     <tr>
       <td align="center">Week 6</td>
       <td align="center">课题对齐</td>
-      <td align="center"><a href="https://enco1128.github.io/AUFE-Research-group-study-materials/6-课题范式/1-问题拆解框架">课题范式</a> · <a href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/06-domain/dataset_sheet.csv">dataset_sheet.csv</a></td>
+      <td align="center"><a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/6-课题范式/1-问题拆解框架">课题范式</a> · <a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/06-domain/dataset_sheet.csv">dataset_sheet.csv</a></td>
       <td align="center">问题拆解 1 页</td>
     </tr>
     <tr>
       <td align="center">Week 7</td>
       <td align="center">第一次汇报</td>
-      <td align="center"><a href="https://enco1128.github.io/AUFE-Research-group-study-materials/5-写作/1-写作工具与投稿">写作篇</a> · <a href="https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/05-writing/weekly_report.md">周报模板</a></td>
+      <td align="center"><a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/5-写作/1-写作工具与投稿">写作篇</a> · <a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/05-writing/weekly_report.md">周报模板</a></td>
       <td align="center">组会 PPT + 周报</td>
     </tr>
     <tr>
       <td align="center">Week 8</td>
       <td align="center">巩固与规划</td>
-      <td align="center"><a href="https://enco1128.github.io/AUFE-Research-group-study-materials/7-路线图/1-八周学习路径">路线图</a> · <a href="https://enco1128.github.io/AUFE-Research-group-study-materials/8-附录/1-资源索引">附录外链</a></td>
+      <td align="center"><a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/7-路线图/1-八周学习路径">路线图</a> · <a href="https://enco1128.github.io/MedSynapse-Research-group-study-materials/8-附录/1-资源索引">附录外链</a></td>
       <td align="center">下阶段 roadmap</td>
     </tr>
   </tbody>
@@ -238,7 +238,7 @@ npm run docs:dev
 ## 仓库结构
 
 ```text
-AUFE-Research-group-study-materials/
+MedSynapse-Research-group-study-materials/
 ├── docs/                      # VitePress 学习网页（主阅读面）
 │   ├── .vitepress/            # 站点配置与主题（华文中宋 + Times New Roman）
 │   ├── public/                # 站点静态资源（logo / favicon / 架构图）
@@ -249,9 +249,11 @@ AUFE-Research-group-study-materials/
 │   └── sections/              # 与 docs 同序的章节
 ├── resources/                 # 模板、范例、PDF、附图（与章节编号对齐）
 │   └── handbook/              # 《如何做科研与写论文》docx / pptx 原文
-├── assets/                    # README 插图（架构图等）
 ├── templates/                 # 个人学习计划等通用模板
-├── .github/workflows/         # GitHub Pages 自动部署
+├── scripts/check_links.py     # 链接与 base 一致性自检
+├── assets/                    # README 插图（架构图等）
+├── .github/workflows/         # pages.yml：GitHub Pages 自动部署
+├── CONTRIBUTING.md            # 编号规范、改名清单、提交流程
 ├── package.json
 └── README.md                  # 本文件
 ```
@@ -323,7 +325,13 @@ AUFE-Research-group-study-materials/
 
 ## 贡献与规范
 
-欢迎通过 [Issues](https://github.com/enco1128/MedSynapse-Research-group-study-materials/issues) / [Pull Requests](https://github.com/enco1128/MedSynapse-Research-group-study-materials/pulls) 修正失效链接、补充经验或完善某一阶段资源。
+改之前先读 [CONTRIBUTING.md](CONTRIBUTING.md)：编号规范、页面骨架、改名时必须同步的位置都在里面。欢迎通过 [Issues](https://github.com/enco1128/MedSynapse-Research-group-study-materials/issues) / [Pull Requests](https://github.com/enco1128/MedSynapse-Research-group-study-materials/pulls) 修正失效链接、补充经验或完善某一阶段资源。
+
+提交前自检（离线即可跑，会抓出指向仓库内不存在文件的链接，以及改名后漏改的旧 Pages 地址）：
+
+```bash
+python scripts/check_links.py
+```
 
 请勿提交：未脱敏的项目细节、隐私数据、未授权数据集、账号与密钥。
 

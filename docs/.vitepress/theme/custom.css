@@ -6,25 +6,25 @@
  */
 
 :root {
-  --aufe-ink: #1a3a4a;
-  --aufe-ink-soft: #2c5364;
-  --aufe-paper: #f7f4ef;
-  --aufe-paper-deep: #efe8dc;
-  --aufe-accent: #8b6914;
-  --aufe-accent-soft: #c4a574;
-  --aufe-line: rgba(26, 58, 74, 0.12);
-  --aufe-shadow: 0 10px 30px rgba(26, 58, 74, 0.08);
+  --ms-ink: #1a3a4a;
+  --ms-ink-soft: #2c5364;
+  --ms-paper: #f7f4ef;
+  --ms-paper-deep: #efe8dc;
+  --ms-accent: #8b6914;
+  --ms-accent-soft: #c4a574;
+  --ms-line: rgba(26, 58, 74, 0.12);
+  --ms-shadow: 0 10px 30px rgba(26, 58, 74, 0.08);
 
   --vp-c-brand-1: #1a3a4a;
   --vp-c-brand-2: #2c5364;
   --vp-c-brand-3: #3d6a7d;
   --vp-c-brand-soft: rgba(26, 58, 74, 0.08);
 
-  --vp-c-bg: var(--aufe-paper);
-  --vp-c-bg-alt: var(--aufe-paper-deep);
+  --vp-c-bg: var(--ms-paper);
+  --vp-c-bg-alt: var(--ms-paper-deep);
   --vp-c-bg-elv: #fffcf7;
-  --vp-c-divider: var(--aufe-line);
-  --vp-c-gutter: var(--aufe-paper-deep);
+  --vp-c-divider: var(--ms-line);
+  --vp-c-gutter: var(--ms-paper-deep);
 
   --vp-c-text-1: #1c2428;
   --vp-c-text-2: #44555c;
@@ -37,8 +37,8 @@
   --vp-home-hero-name-color: transparent;
   --vp-home-hero-name-background: linear-gradient(
     120deg,
-    var(--aufe-ink) 30%,
-    var(--aufe-accent) 95%
+    var(--ms-ink) 30%,
+    var(--ms-accent) 95%
   );
   --vp-home-hero-image-background-image: radial-gradient(
     closest-side,
@@ -48,14 +48,14 @@
 }
 
 .dark {
-  --aufe-ink: #d7e6ee;
-  --aufe-ink-soft: #9bb8c6;
-  --aufe-paper: #121a1f;
-  --aufe-paper-deep: #0d1418;
-  --aufe-accent: #d4b483;
-  --aufe-accent-soft: #a88955;
-  --aufe-line: rgba(215, 230, 238, 0.12);
-  --aufe-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
+  --ms-ink: #d7e6ee;
+  --ms-ink-soft: #9bb8c6;
+  --ms-paper: #121a1f;
+  --ms-paper-deep: #0d1418;
+  --ms-accent: #d4b483;
+  --ms-accent-soft: #a88955;
+  --ms-line: rgba(215, 230, 238, 0.12);
+  --ms-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
 
   --vp-c-brand-1: #d4b483;
   --vp-c-brand-2: #e0c49a;
@@ -97,14 +97,14 @@ body,
 .vp-doc h3 {
   letter-spacing: 0.02em;
   font-weight: 700;
-  color: var(--aufe-ink);
+  color: var(--ms-ink);
 }
 
 .vp-doc h2 {
   border-top: none;
   margin-top: 2.2rem;
   padding-top: 0.4rem;
-  border-bottom: 1px solid var(--aufe-line);
+  border-bottom: 1px solid var(--ms-line);
 }
 
 .vp-doc a {
@@ -113,8 +113,8 @@ body,
 }
 
 .vp-doc blockquote {
-  border-left-color: var(--aufe-accent-soft);
-  background: color-mix(in srgb, var(--aufe-accent-soft) 12%, transparent);
+  border-left-color: var(--ms-accent-soft);
+  background: color-mix(in srgb, var(--ms-accent-soft) 12%, transparent);
   border-radius: 0 8px 8px 0;
 }
 
@@ -125,7 +125,7 @@ body,
 }
 
 .vp-doc tr:nth-child(2n) {
-  background: color-mix(in srgb, var(--aufe-ink) 3%, transparent);
+  background: color-mix(in srgb, var(--ms-ink) 3%, transparent);
 }
 
 .vp-doc code,
@@ -145,7 +145,7 @@ body,
   content: none;
 }
 
-.aufe-parallax {
+.ms-parallax {
   position: absolute;
   inset: -12% -8% -20%;
   pointer-events: none;
@@ -153,22 +153,22 @@ body,
   overflow: hidden;
 }
 
-.aufe-parallax__layer,
-.aufe-parallax__grain {
+.ms-parallax__layer,
+.ms-parallax__grain {
   position: absolute;
   inset: 0;
   will-change: transform;
   transform: translate3d(0, 0, 0);
 }
 
-.aufe-parallax__layer--far {
+.ms-parallax__layer--far {
   background:
     radial-gradient(ellipse 55% 40% at 18% 22%, rgba(196, 165, 116, 0.22), transparent 60%),
     radial-gradient(ellipse 45% 35% at 82% 8%, rgba(26, 58, 74, 0.12), transparent 58%),
     radial-gradient(ellipse 40% 30% at 70% 70%, rgba(44, 83, 100, 0.08), transparent 65%);
 }
 
-.aufe-parallax__layer--mid {
+.ms-parallax__layer--mid {
   background:
     radial-gradient(circle 28vmin at 12% 68%, rgba(139, 105, 20, 0.1), transparent 70%),
     radial-gradient(circle 34vmin at 88% 42%, rgba(26, 58, 74, 0.09), transparent 72%),
@@ -176,7 +176,7 @@ body,
   opacity: 0.95;
 }
 
-.aufe-parallax__layer--near {
+.ms-parallax__layer--near {
   background:
     radial-gradient(circle 12vmin at 30% 18%, rgba(255, 252, 247, 0.55), transparent 70%),
     radial-gradient(circle 10vmin at 74% 28%, rgba(196, 165, 116, 0.16), transparent 68%),
@@ -189,7 +189,7 @@ body,
   opacity: 0.7;
 }
 
-.aufe-parallax__grain {
+.ms-parallax__grain {
   background-image:
     radial-gradient(rgba(26, 58, 74, 0.04) 0.6px, transparent 0.7px);
   background-size: 3px 3px;
@@ -197,38 +197,38 @@ body,
   mix-blend-mode: soft-light;
 }
 
-.dark .aufe-parallax__layer--far {
+.dark .ms-parallax__layer--far {
   background:
     radial-gradient(ellipse 55% 40% at 18% 22%, rgba(212, 180, 131, 0.14), transparent 60%),
     radial-gradient(ellipse 45% 35% at 82% 8%, rgba(155, 184, 198, 0.1), transparent 58%),
     radial-gradient(ellipse 40% 30% at 70% 70%, rgba(44, 83, 100, 0.16), transparent 65%);
 }
 
-.dark .aufe-parallax__layer--near {
+.dark .ms-parallax__layer--near {
   mix-blend-mode: screen;
   opacity: 0.35;
 }
 
-.VPHome > *:not(.aufe-parallax) {
+.VPHome > *:not(.ms-parallax) {
   position: relative;
   z-index: 1;
 }
 
-.aufe-home--parallax .VPHero .name,
-.aufe-home--parallax .VPHero .text,
-.aufe-home--parallax .VPHero .tagline,
-.aufe-home--parallax .VPHero .actions,
-.aufe-home--parallax .VPFeature,
-.aufe-home--parallax .aufe-panel,
-.aufe-home--parallax .aufe-step {
-  --aufe-tx: 0px;
-  --aufe-ty: 0px;
-  --aufe-rot: 0deg;
+.ms-home--parallax .VPHero .name,
+.ms-home--parallax .VPHero .text,
+.ms-home--parallax .VPHero .tagline,
+.ms-home--parallax .VPHero .actions,
+.ms-home--parallax .VPFeature,
+.ms-home--parallax .ms-panel,
+.ms-home--parallax .ms-step {
+  --ms-tx: 0px;
+  --ms-ty: 0px;
+  --ms-rot: 0deg;
   will-change: transform;
-  transform: translate3d(var(--aufe-tx), var(--aufe-ty), 0) rotate(var(--aufe-rot));
+  transform: translate3d(var(--ms-tx), var(--ms-ty), 0) rotate(var(--ms-rot));
 }
 
-@keyframes aufe-glow {
+@keyframes ms-glow {
   from { opacity: 0.85; }
   to { opacity: 1; }
 }
@@ -241,22 +241,22 @@ body,
 .VPHero .name {
   font-size: clamp(2rem, 5vw, 3.2rem) !important;
   line-height: 1.25 !important;
-  animation: aufe-rise 0.8s ease both;
+  animation: ms-rise 0.8s ease both;
 }
 
 .VPHero .text {
   font-size: clamp(1.2rem, 2.6vw, 1.8rem) !important;
-  color: var(--aufe-ink-soft) !important;
-  animation: aufe-rise 0.9s ease 0.08s both;
+  color: var(--ms-ink-soft) !important;
+  animation: ms-rise 0.9s ease 0.08s both;
 }
 
 .VPHero .tagline {
   max-width: 42rem;
-  animation: aufe-rise 1s ease 0.14s both;
+  animation: ms-rise 1s ease 0.14s both;
 }
 
 .VPHero .actions {
-  animation: aufe-rise 1.05s ease 0.2s both;
+  animation: ms-rise 1.05s ease 0.2s both;
 }
 
 .VPHero .VPButton.brand {
@@ -277,7 +277,7 @@ body,
   transform: translateY(-2px);
 }
 
-@keyframes aufe-rise {
+@keyframes ms-rise {
   from { opacity: 0; transform: translateY(16px); }
   to { opacity: 1; transform: translateY(0); }
 }
@@ -288,11 +288,11 @@ body,
 }
 
 .VPFeature {
-  border: 1px solid var(--aufe-line) !important;
-  background: color-mix(in srgb, var(--vp-c-bg-elv) 92%, var(--aufe-accent-soft)) !important;
-  box-shadow: var(--aufe-shadow);
+  border: 1px solid var(--ms-line) !important;
+  background: color-mix(in srgb, var(--vp-c-bg-elv) 92%, var(--ms-accent-soft)) !important;
+  box-shadow: var(--ms-shadow);
   transition: box-shadow 0.28s ease, border-color 0.28s ease;
-  animation: aufe-rise 0.7s ease both;
+  animation: ms-rise 0.7s ease both;
 }
 
 .VPFeatures .item:nth-child(1) .VPFeature { animation-delay: 0.05s; }
@@ -303,24 +303,24 @@ body,
 .VPFeatures .item:nth-child(6) .VPFeature { animation-delay: 0.4s; }
 
 .VPFeature:hover {
-  border-color: color-mix(in srgb, var(--aufe-accent) 45%, var(--aufe-line)) !important;
+  border-color: color-mix(in srgb, var(--ms-accent) 45%, var(--ms-line)) !important;
   box-shadow: 0 16px 36px rgba(26, 58, 74, 0.12);
 }
 
-.aufe-home--parallax .VPFeature:hover {
-  transform: translate3d(var(--aufe-tx), calc(var(--aufe-ty) - 4px), 0) rotate(var(--aufe-rot));
+.ms-home--parallax .VPFeature:hover {
+  transform: translate3d(var(--ms-tx), calc(var(--ms-ty) - 4px), 0) rotate(var(--ms-rot));
 }
 
-.VPHome:not(.aufe-home--parallax) .VPFeature {
+.VPHome:not(.ms-home--parallax) .VPFeature {
   transition: transform 0.28s ease, box-shadow 0.28s ease, border-color 0.28s ease;
 }
 
-.VPHome:not(.aufe-home--parallax) .VPFeature:hover {
+.VPHome:not(.ms-home--parallax) .VPFeature:hover {
   transform: translateY(-4px);
 }
 
 .VPFeature .title {
-  color: var(--aufe-ink) !important;
+  color: var(--ms-ink) !important;
   font-size: 1.15rem !important;
 }
 
@@ -329,117 +329,117 @@ body,
 }
 
 /* ---------- Home extra section ---------- */
-.aufe-home-extra {
+.ms-home-extra {
   max-width: 1152px;
   margin: 2.5rem auto 4rem;
   padding: 0 24px;
 }
 
-.aufe-panel {
-  border: 1px solid var(--aufe-line);
+.ms-panel {
+  border: 1px solid var(--ms-line);
   border-radius: 16px;
   background: var(--vp-c-bg-elv);
-  box-shadow: var(--aufe-shadow);
+  box-shadow: var(--ms-shadow);
   padding: 1.5rem 1.6rem 1.7rem;
   margin-bottom: 1.25rem;
-  animation: aufe-rise 0.8s ease both;
+  animation: ms-rise 0.8s ease both;
 }
 
-.aufe-panel h2 {
+.ms-panel h2 {
   margin: 0 0 0.75rem;
   font-size: 1.35rem;
-  color: var(--aufe-ink);
+  color: var(--ms-ink);
   border: none;
   padding: 0;
 }
 
-.aufe-panel p,
-.aufe-panel li {
+.ms-panel p,
+.ms-panel li {
   color: var(--vp-c-text-2);
   line-height: 1.8;
 }
 
-.aufe-steps {
+.ms-steps {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 1rem;
   margin-top: 1rem;
 }
 
-.aufe-step {
+.ms-step {
   border-radius: 12px;
   padding: 1rem 1.05rem;
-  background: color-mix(in srgb, var(--aufe-ink) 4%, transparent);
-  border: 1px solid var(--aufe-line);
+  background: color-mix(in srgb, var(--ms-ink) 4%, transparent);
+  border: 1px solid var(--ms-line);
   transition: background 0.25s ease, box-shadow 0.25s ease;
 }
 
-.aufe-step:hover {
-  background: color-mix(in srgb, var(--aufe-accent-soft) 18%, transparent);
+.ms-step:hover {
+  background: color-mix(in srgb, var(--ms-accent-soft) 18%, transparent);
 }
 
-.aufe-home--parallax .aufe-step:hover {
-  transform: translate3d(var(--aufe-tx), calc(var(--aufe-ty) - 3px), 0) rotate(var(--aufe-rot));
+.ms-home--parallax .ms-step:hover {
+  transform: translate3d(var(--ms-tx), calc(var(--ms-ty) - 3px), 0) rotate(var(--ms-rot));
 }
 
-.VPHome:not(.aufe-home--parallax) .aufe-step {
+.VPHome:not(.ms-home--parallax) .ms-step {
   transition: transform 0.25s ease, background 0.25s ease;
 }
 
-.VPHome:not(.aufe-home--parallax) .aufe-step:hover {
+.VPHome:not(.ms-home--parallax) .ms-step:hover {
   transform: translateY(-3px);
 }
 
-.aufe-home--parallax .aufe-panel {
+.ms-home--parallax .ms-panel {
   backdrop-filter: blur(2px);
   background: color-mix(in srgb, var(--vp-c-bg-elv) 88%, transparent);
 }
 
-.aufe-step .num {
+.ms-step .num {
   display: inline-block;
   font-family: 'Times New Roman', Times, serif;
-  color: var(--aufe-accent);
+  color: var(--ms-accent);
   font-weight: 700;
   margin-bottom: 0.35rem;
   letter-spacing: 0.04em;
 }
 
-.aufe-step h3 {
+.ms-step h3 {
   margin: 0 0 0.35rem;
   font-size: 1.05rem;
-  color: var(--aufe-ink);
+  color: var(--ms-ink);
   border: none;
   padding: 0;
 }
 
-.aufe-links {
+.ms-links {
   display: flex;
   flex-wrap: wrap;
   gap: 0.65rem;
   margin-top: 0.9rem;
 }
 
-.aufe-chip {
+.ms-chip {
   display: inline-flex;
   align-items: center;
   padding: 0.35rem 0.75rem;
   border-radius: 999px;
-  border: 1px solid var(--aufe-line);
-  color: var(--aufe-ink) !important;
+  border: 1px solid var(--ms-line);
+  color: var(--ms-ink) !important;
   text-decoration: none !important;
   background: color-mix(in srgb, var(--vp-c-bg) 80%, white);
   transition: transform 0.2s ease, border-color 0.2s ease, background 0.2s ease;
   font-size: 0.92rem;
 }
 
-.aufe-chip:hover {
+.ms-chip:hover {
   transform: translateY(-2px);
-  border-color: var(--aufe-accent-soft);
-  background: color-mix(in srgb, var(--aufe-accent-soft) 22%, transparent);
+  border-color: var(--ms-accent-soft);
+  background: color-mix(in srgb, var(--ms-accent-soft) 22%, transparent);
 }
 
 @media (max-width: 860px) {
-  .aufe-steps {
+  .ms-steps {
     grid-template-columns: 1fr;
   }
 }
@@ -461,21 +461,21 @@ body,
 }
 
 /* Reading progress bar */
-.aufe-progress {
+.ms-progress {
   position: fixed;
   top: 0;
   left: 0;
   height: 2px;
   width: 0%;
   z-index: 1000;
-  background: linear-gradient(90deg, var(--aufe-ink), var(--aufe-accent));
+  background: linear-gradient(90deg, var(--ms-ink), var(--ms-accent));
   transition: width 0.1s linear;
   pointer-events: none;
 }
 
 /* Doc page enter */
 .VPDoc .content-container {
-  animation: aufe-rise 0.45s ease both;
+  animation: ms-rise 0.45s ease both;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -486,14 +486,14 @@ body,
     transition: none !important;
   }
 
-  .aufe-parallax,
-  .aufe-home--parallax .VPHero .name,
-  .aufe-home--parallax .VPHero .text,
-  .aufe-home--parallax .VPHero .tagline,
-  .aufe-home--parallax .VPHero .actions,
-  .aufe-home--parallax .VPFeature,
-  .aufe-home--parallax .aufe-panel,
-  .aufe-home--parallax .aufe-step {
+  .ms-parallax,
+  .ms-home--parallax .VPHero .name,
+  .ms-home--parallax .VPHero .text,
+  .ms-home--parallax .VPHero .tagline,
+  .ms-home--parallax .VPHero .actions,
+  .ms-home--parallax .VPFeature,
+  .ms-home--parallax .ms-panel,
+  .ms-home--parallax .ms-step {
     transform: none !important;
   }
 }

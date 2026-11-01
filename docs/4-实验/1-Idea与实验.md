@@ -1,7 +1,7 @@
 # Idea 与实验
 
-> **AUFE课题组科研入门** · 对应论文章节：**Experiments**  
-> 仓库资源：[`resources/04-experiment/`](https://github.com/enco1128/AUFE-Research-group-study-materials/tree/main/resources/04-experiment) · 手册第四篇
+> **MedSynapse课题组科研入门** · 对应论文章节：**Experiments**  
+> 仓库资源：[`resources/04-experiment/`](https://github.com/enco1128/MedSynapse-Research-group-study-materials/tree/main/resources/04-experiment) · 手册第四篇
 
 ## 本页目标
 
@@ -61,11 +61,11 @@
 
 简单实验：只保留要验证的那个 core challenge。证明 work 后再上真实数据并补对比与消融。
 
-实验记录：日期、步骤、想法、失败、配置、图表、下一步——可回溯。扩展清单见 [`idea_finding.md`](https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/04-experiment/idea_finding.md)。
+实验记录：日期、步骤、想法、失败、配置、图表、下一步——可回溯。扩展清单见 [`idea_finding.md`](https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/04-experiment/idea_finding.md)。
 
 ## 经典精读清单
 
-见 [`classic_models.md`](https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/resources/04-experiment/classic_models.md)  
+见 [`classic_models.md`](https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/resources/04-experiment/classic_models.md)  
 配合 [李沐论文精读](https://github.com/mli/paper-reading)：ResNet → Transformer → GAN → 对比学习 → Swin → CLIP → …
 
 ## Checklist

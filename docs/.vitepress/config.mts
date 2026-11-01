@@ -1,24 +1,24 @@
 import { defineConfig } from 'vitepress'
 import { withSidebar } from 'vitepress-sidebar'
 
-const siteTitle = '课题组科研入门'
-const repo = 'https://github.com/enco1128/AUFE-Research-group-study-materials'
-const site = 'https://enco1128.github.io/AUFE-Research-group-study-materials/'
+const siteTitle = 'MedSynapse课题组科研入门'
+const repo = 'https://github.com/enco1128/MedSynapse-Research-group-study-materials'
+const site = 'https://enco1128.github.io/MedSynapse-Research-group-study-materials/'
 
 const vitePressOptions = {
   lang: 'zh-CN',
   title: siteTitle,
   description:
-    '课题组科研入门：深度学习 / 计算机视觉 / 医学影像 AI 全流程指南（网页 · Overleaf · 仓库三端对齐）',
+    'MedSynapse 课题组科研入门：深度学习 / 计算机视觉 / 医学影像 AI 全流程指南（网页 · Overleaf · 仓库三端对齐）',
   lastUpdated: true,
   cleanUrls: true,
   ignoreDeadLinks: [
     /^https?:\/\/localhost/,
     /^https?:\/\/127\.0\.0\.1/
   ],
-  base: '/AUFE-Research-group-study-materials/',
+  base: '/MedSynapse-Research-group-study-materials/',
   head: [
-    ['link', { rel: 'icon', href: '/AUFE-Research-group-study-materials/favicon.svg' }],
+    ['link', { rel: 'icon', href: '/MedSynapse-Research-group-study-materials/favicon.svg' }],
     ['meta', { name: 'theme-color', content: '#1a3a4a' }],
     ['meta', { property: 'og:title', content: siteTitle }],
     ['meta', { property: 'og:description', content: '从文献到投稿的科研全流程入门体系' }],
@@ -75,7 +75,7 @@ const vitePressOptions = {
     },
     footer: {
       message: '网页 · Overleaf 手册 · 仓库资源三端同构 · 字体：华文中宋 / Times New Roman',
-      copyright: `Copyright © ${new Date().getFullYear()} AUFE课题组 · <a href="${repo}">GitHub</a>`
+      copyright: `Copyright © ${new Date().getFullYear()} MedSynapse课题组 · <a href="${repo}">GitHub</a>`
     }
   }
 }

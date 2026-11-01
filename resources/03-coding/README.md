@@ -1,6 +1,6 @@
 # 03 · 代码与工程
 
-本目录对应网页 [代码与工程基础](https://github.com/enco1128/AUFE-Research-group-study-materials/blob/main/docs/3-代码/1-代码与工程基础.md)。
+本目录对应网页 [代码与工程基础](https://github.com/enco1128/MedSynapse-Research-group-study-materials/blob/main/docs/3-代码/1-代码与工程基础.md)。
 
 ## 必做外链
 
