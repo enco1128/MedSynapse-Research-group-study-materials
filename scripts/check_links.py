@@ -22,7 +22,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 TEXT_SUFFIXES = {'.md', '.tex'}
 URL_RE = re.compile(r'https?://[^\s)\]<>"\'`，。、]+')
 TRAILING = '}.,;!?"\''
-BLOCKED = {403, 202, 429, 451, 401}
+BLOCKED = {401, 403, 202, 412, 418, 429, 451, 503}
 DEAD = {404, 410}
 
 # 站点常量：仓库改名时这里必须与 docs/.vitepress/config.mts 同步
@@ -91,7 +91,7 @@ def main() -> int:
                 continue
             urls.setdefault(url, set()).add(str(f.relative_to(ROOT)))
 
-    structural, dead, blocked, slow, ok, verified_local = [], [], [], [], 0, 0
+    structural, dead, blocked, other, slow, ok, verified_local = [], [], [], [], [], 0, 0
     for url in sorted(urls):
         is_self, err = check_repo_self_link(url)
         if err:
@@ -113,12 +113,12 @@ def main() -> int:
         elif state == 'timeout':
             slow.append(url)
         else:
-            dead.append(f'{url} ({state})')
+            other.append(f'{url} ({state})')
 
     print(f'扫描到 {len(urls)} 条唯一链接')
     if args.net:
         print(f'  仓库内引用本地已验证 {verified_local} 条（跳过网络）')
-        print(f'  外部：可达 {ok} · 确认失效 {len(dead)} · 反爬拦截 {len(blocked)} · 超时 {len(slow)}')
+        print(f'  外部：可达 {ok} · 确认失效 {len(dead)} · 反爬拦截 {len(blocked)} · 其他状态 {len(other)} · 超时 {len(slow)}')
     else:
         print('  未启用 --net，仅做仓库内引用与旧地址检查')
     for line in structural:
@@ -127,6 +127,8 @@ def main() -> int:
         print('  [失效] ' + line)
     for line in blocked:
         print('  [拦截] ' + line + '  （反爬，需人工确认，勿直接判定为死链）')
+    for line in other:
+        print('  [其他] ' + line + '  （非典型响应，不计为死链）')
     for line in slow:
         print('  [超时] ' + line + '  （不计为死链）')
 
