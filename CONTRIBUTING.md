@@ -63,7 +63,7 @@ LaTeX 手册：`latex/main.tex`，编译器 XeLaTeX（本地 TeX Live 或 Overle
 
 1. 从 `main` 切分支，一个 PR 只解决一件事；
 2. PR 里贴出自检命令的输出（链接、构建）；
-3. `Deploy VitePress` 工作流通过后再合并（`Check links` 工作流待 `workflow` 权限补齐后启用，当前先在本地跑自检）；
+3. CI 的 `Deploy VitePress` 与 `Check links` 通过后再合并；
 4. 合并后到 Actions 确认 Pages 部署成功，再打开线上站点抽查一页。
 
 ## 不要提交

@@ -5,6 +5,7 @@
   <img alt="docs" src="https://img.shields.io/badge/docs-VitePress-42b883.svg" />
   <img alt="latex" src="https://img.shields.io/badge/LaTeX-Overleaf%20ready-008080.svg" />
   <a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/actions/workflows/pages.yml"><img alt="pages" src="https://github.com/enco1128/MedSynapse-Research-group-study-materials/actions/workflows/pages.yml/badge.svg" /></a>
+  <a href="https://github.com/enco1128/MedSynapse-Research-group-study-materials/actions/workflows/links.yml"><img alt="links" src="https://github.com/enco1128/MedSynapse-Research-group-study-materials/actions/workflows/links.yml/badge.svg" /></a>
 </p>
 
 <p align="center">
@@ -252,7 +253,7 @@ MedSynapse-Research-group-study-materials/
 ├── templates/                 # 个人学习计划等通用模板
 ├── scripts/check_links.py     # 链接与 base 一致性自检
 ├── assets/                    # README 插图（架构图等）
-├── .github/workflows/         # pages.yml：GitHub Pages 自动部署
+├── .github/workflows/         # pages.yml 部署 · links.yml 每周一链接体检
 ├── CONTRIBUTING.md            # 编号规范、改名清单、提交流程
 ├── package.json
 └── README.md                  # 本文件

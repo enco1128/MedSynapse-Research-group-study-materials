@@ -1,0 +1,33 @@
+name: Check links
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '**/*.md'
+      - '**/*.tex'
+      - 'scripts/check_links.py'
+  pull_request:
+    paths:
+      - '**/*.md'
+      - '**/*.tex'
+  schedule:
+    - cron: '30 6 * * 1'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  links:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 仓库内引用与 base 一致性（致命）
+        run: python scripts/check_links.py
+      - name: 外部链接探测（仅报告，反爬拦截不算失败）
+        continue-on-error: true
+        run: python scripts/check_links.py --net
